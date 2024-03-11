@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: aquamarine;
+    padding: 0.5rem 0 0.2rem;
+}
+
+section {
+    display: flex;
+    padding: 1rem 20%;
+}
+
+.navbar {
+    background-color: rgb(255, 179, 0);
+    display: flex;
+    margin: 0 20%;
+}
+
+.nav1 {
+    border: 1px dashed black;
+    width: 15%;
+}
+
+.nav2 {
+    text-align: center;
+    width: 70%;
+    border: 1px dashed black
+}
+
+.nav3 {
+    text-align: end;
+    width: 15%;
+    border: 1px dashed black
+}
+
+.mainheader {
+    background-color: blue;
+    margin-top: 0.5rem;
+    padding: 1rem 20%;
+}
+
+.violet {
+    background-color: violet;
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px dashed black;
+}
+
+
+main section:nth-child(2),
+main section:nth-child(4) {
+    background-color: rgb(152, 186, 152);
+}
+
+main section:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.blue {
+    background-color: rgb(58, 176, 227);
+    height: 200px;
+    width: 60%;
+    border: 1px dashed black;
+}
+
+.pink {
+    background-color: pink;
+    height: 200px;
+    width: 40%;
+    border: 1px dashed black;
+}
+
+.green {
+    background-color: green;
+    height: 350px;
+    width: 100%;
+    border: 1px dashed black;
+}
+
+footer {
+    background-color: rgb(59, 59, 59);
+}
+
+.padding1 {
+    padding: 0.2rem 20% 1rem;
+}
+
+.red {
+    background-color: rgb(241, 138, 148);
+    height: 200px;
+    width: 30%;
+    border: 1px dashed black;
+}
+
+.aqua {
+    background-color: rgb(34, 245, 199);
+    height: 200px;
+    width: 80%;
+    border: 1px dashed black;
+    display: flex;
+}
+
+.trasparente {
+    height: 200px;
+    width: 25%;
+    border: 1px dashed white;
+}
+
+hr {
+    color: white;
+}
+
+.padding2 {
+    padding: 0.5rem 20% 0;
+}
+
+.lastsection {
+    background-color: aquamarine;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    border: 1px dashed black;
+}
