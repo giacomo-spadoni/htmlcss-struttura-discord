@@ -55,9 +55,13 @@ section {
 
 /*********** Main boxes  ************/
 
+main {
+    background-color: rgb(223, 223, 223);
+}
+
 main section:nth-child(2),
 main section:nth-child(4) {
-    background-color: rgb(152, 186, 152);
+    background-color: rgb(185, 185, 185);
 }
 
 main section:nth-child(2) {
